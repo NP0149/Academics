@@ -5,28 +5,7 @@
 Welcome to the **Academics** repository!  
 This repository serves as a personal hub for storing and sharing coursework, notes, assignments, and project work from various academic subjects.
 
----
 
-## 📚 Contents
-
-### 🧮 Semester-wise Structure
-
-```bash
-Academics/
-├── Semester1/
-│   ├── Mathematics/
-│   ├── Physics/
-│   └── C_Programming/
-├── Semester2/
-│   ├── DSA/
-│   ├── Digital_Logic/
-│   └── OOPs_Java/
-├── Semester3/
-│   ├── DBMS/
-│   ├── OS/
-│   └── CN/
-└── README.md
-```
     📌 You can customize folders as per your actual subjects and semesters.
 
 🔧 Technologies Used
