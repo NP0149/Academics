@@ -1,0 +1,53 @@
+3.1 create a directory name exam_lab in your home directory
+mkdir examlab
+ls
+
+3.2 Inside exam_lab create three empty files file1.txt, file2.txt, file3.txt
+cd examlab
+touch file1.txt file2.txt file3.txt
+ls -lh
+
+3.3 Display the current date, time and calendar of this month
+date
+cal
+echo "Date: $(date)"; echo; cal(to combine)
+
+3.4 Delete file3.txt permanently
+rm file3.txt
+ls -lh
+
+3.5 Display IP address and network configuration
+ifconfig
+?
+.....................................................................................................
+2.1 Transfer labfile.txt from VM1 → VM2 using netcat
+nc -l -p 5555 > labfile.txt(receiver)
+nc 192.168.56.101 5555 < labfile.txt(sender)
+
+2.2 Rename the transferred file on VM2
+mv labfile.txt received_labfile.txt
+
+2.3 Demonstrate an error scenario
+nc 192.168.56.150 5555 < labfile.txt...?
+
+2.4 Verify that the file was received correctly
+cat received-labfile.txt
+
+2.5 Show file details (size, timestamp) on both VMs
+ls -lh labfile.txt
+..........................................................................................................
+2.2 Display system information (e.g., OS version, kernel version)
+cat /etc/os-release
+uname -r
+uname -a
+
+2.3 Show current logged-in user details using who and id commands
+whoami
+id
+
+2.4 Ping the gateway or another VM to check network connectivity
+ping 192.168.56.101
+
+2.5 Rename file3.txt to backup.txt
+mv file3.txt backup.txt
+
